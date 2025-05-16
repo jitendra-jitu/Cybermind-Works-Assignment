@@ -1,0 +1,40 @@
+# Global ignores
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.*.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Frontend specific (Next.js)
+frontend/.next/
+frontend/out/
+
+# Backend specific (NestJS)
+backend/dist/
+backend/.env
+backend/.env.local
+
+# Coverage
+coverage/
+*.lcov
+
+# Optional if you're using Docker
+docker-compose.override.yml
+docker.env
+
+# Optional: ignore submodule if mistakenly added
+backend/.git
